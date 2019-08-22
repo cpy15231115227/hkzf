@@ -10,3 +10,11 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+
+
+// index.js 职责
+// 1.程序入口
+// 2.导入根组件 App.js
+// 3.导入公共样式
+// 4.导入每个组件都要用的辅助文件
